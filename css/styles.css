@@ -34,6 +34,7 @@ body {
   outline: 0;
 }
 
+
 img {
   display: block;
 }
@@ -139,7 +140,7 @@ a {
 .contacts-header .contact {
   display: flex;
   align-items: center;
-  
+
   color: var(--secondary-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -187,15 +188,17 @@ a {
     ),
     url(../images/hero.jpg);
   background-repeat: no-repeat;
+  background-color: #c4c4c4;
   background-position: center;
-  background-size: 1600px;
+  margin: auto;
+  max-width: 1600px;
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
 }
 
 .hero-title {
-  margin-top: 0;
+  
   margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
@@ -231,14 +234,10 @@ a {
 
 /* <!-- особливості --> */
 
-.icon-specials-link {
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
-}
-
 .icon-specials {
-  padding: 25px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 270px;
   height: 120px;
   background: #f5f4fa;
@@ -400,16 +399,11 @@ a {
 /* <!-- Постійні клієнти --> */
 
 .team-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 170px;
   height: 92px;
 }
 
 .client-item {
-  display: block;
-  padding: 16px 32px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -483,6 +477,7 @@ a {
 
 .footer-conteiner {
   display: flex;
+  align-items: baseline;
 }
 
 .second {

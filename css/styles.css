@@ -34,7 +34,6 @@ body {
   outline: 0;
 }
 
-
 img {
   display: block;
 }
@@ -191,6 +190,7 @@ a {
   background-color: #c4c4c4;
   background-position: center;
   margin: auto;
+  height: 600px;
   max-width: 1600px;
   padding-top: 200px;
   padding-bottom: 200px;
@@ -198,7 +198,6 @@ a {
 }
 
 .hero-title {
-  
   margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
@@ -234,6 +233,8 @@ a {
 
 /* <!-- особливості --> */
 
+
+
 .icon-specials {
   display: flex;
   align-items: center;
@@ -245,18 +246,19 @@ a {
   margin-bottom: 30px;
 }
 
-.specials .list {
+.specials-list {
   display: flex;
+  gap: 30px;
 }
 
 .elements {
-  width: calc((100% - 90px) / 4);
-  margin-right: 30px;
+  flex-basis: calc((100% - 90px) / 4);
+  
 }
 
-.elements:nth-child(4n) {
+/* .elements:nth-child(4n) {
   margin-right: 0;
-}
+} */
 
 .section {
   padding-top: 94px;
